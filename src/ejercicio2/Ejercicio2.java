@@ -9,6 +9,8 @@ public class Ejercicio2 {
         System.out.println(precioFinal);
     }
 
+
+
     private static double precioMasIVA(int precio) {
         return precio + (precio*0.21);
     }
