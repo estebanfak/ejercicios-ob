@@ -14,6 +14,18 @@ public class SmartDevice {
         this.color = color;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
     @Override
     public String toString() {
         return "SmartDevice{" +

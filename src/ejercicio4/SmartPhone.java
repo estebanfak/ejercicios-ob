@@ -15,6 +15,18 @@ public class SmartPhone extends SmartDevice{
         this.sistemaOperativo = sistemaOperativo;
     }
 
+    public String getTipoPantalla() {
+        return tipoPantalla;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public String getSistemaOperativo() {
+        return sistemaOperativo;
+    }
+
     @Override
     public String toString() {
         return "SmartPhone{" +
